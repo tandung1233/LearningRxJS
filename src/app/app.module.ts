@@ -10,12 +10,18 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './components/home/home.component';
+import { MotTramdaysOfAngularComponent } from './pages/mot-tramdays-of-angular/mot-tramdays-of-angular.component';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
+    HomeComponent,
+    MotTramdaysOfAngularComponent,
   ],
   imports: [
     BrowserModule,
